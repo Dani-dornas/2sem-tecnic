@@ -1,0 +1,19 @@
+{
+  "name": "tecnica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index",
+    "um": "npx ts-node ./src/exercicios/exer01",
+    "dois": "npx ts-node ./src/exercicios/exer02",
+    "tres": "npx ts-node ./src/exercicios/exer03",
+    "quatro": "npx ts-node ./src/exercicios/exer04",
+    "cinco": "npx ts-node ./src/exercicios/exer05",
+    "seis": "npx ts-node ./src/exercicios/exer06",
+    "sete": "npx ts-node ./src/exercicios/exer07"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
