@@ -1,5 +1,3 @@
-import { REPL_MODE_SLOPPY } from "repl";
-
 class Carro {
   marca?: string;
   modelo?: string;
