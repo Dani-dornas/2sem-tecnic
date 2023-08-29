@@ -28,3 +28,5 @@ const a: Matematica = new Somar(5);
 a.calcular();
 const b: Matematica = new Multiplicar(5);
 b.calcular();
+
+export{}

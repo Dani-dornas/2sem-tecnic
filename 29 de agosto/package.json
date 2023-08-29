@@ -10,7 +10,8 @@
     "tres": "npx ts-node ./src/exer_03",
     "quatro": "npx ts-node ./src/exer_04",
     "cinco": "npx ts-node ./src/exer_05",
-    "seis": "npx ts-node ./src/exer_06"
+    "seis": "npx ts-node ./src/exer_06",
+    "sete": "npx ts-node ./src/exer_07"
   },
   "keywords": [],
   "author": "",
