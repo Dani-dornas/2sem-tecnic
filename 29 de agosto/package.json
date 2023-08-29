@@ -1,0 +1,22 @@
+{
+  "name": "exer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "um": "npx ts-node ./src/exer_01",
+    "dois": "npx ts-node ./src/exer_02",
+    "tres": "npx ts-node ./src/exer_03",
+    "quatro": "npx ts-node ./src/exer_04",
+    "cinco": "npx ts-node ./src/exer_05",
+    "seis": "npx ts-node ./src/exer_06"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
