@@ -4,10 +4,12 @@ class Geometria {
   }
 }
 
-class Retangulo {
+class Retangulo extends Geometria{
   base: number;
   altura: number;
+
   constructor(base: number, altura: number) {
+    super ();
     this.base = base;
     this.altura = altura;
   }
@@ -16,9 +18,11 @@ class Retangulo {
   }
 }
 
-class Circulo {
+class Circulo extends Geometria {
   raio: number;
+
   constructor(raio: number) {
+    super();
     this.raio = raio;
   }
   area(): number {
@@ -30,3 +34,5 @@ let geom: Geometria = new Retangulo(10, 5);
 console.log("Retângulo:", geom.area());
 geom = new Circulo(5);
 console.log("Círculo:", geom.area());
+
+export{Geometria, Retangulo, Circulo}
